@@ -50,8 +50,8 @@ $conn= new mysqli("localhost",$user,$pass,$db) or die("Connection Failed!");
 				{
 			?>
 			<h1><?php echo $result['word']; ?></h1>	
-			<p><?php echo $result['mean']; ?></p>
-			<p><?php echo $result['sentence']; ?></p>
+			<p>Meaning:<?php echo $result['mean']; ?></p>
+			<p>Example:<?php echo $result['sentence']; ?></p>
 			<?php
 				}
 			}
